@@ -288,3 +288,24 @@ button:focus {
     width: 100%;
   }
 }
+
+.botao-remover {
+  background-color: transparent;
+  border: none;
+  color: var(--cor-azul);
+  font-weight: 700;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  padding: 0 0.5rem;
+  border-radius: 0.3rem;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+.botao-remover:hover,
+.botao-remover:focus {
+  background-color: var(--cor-azul);
+  color: var(--cor-branco);
+  outline: none;
+}
